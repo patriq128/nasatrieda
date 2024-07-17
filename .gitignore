@@ -1,0 +1,19 @@
+# Ignorovanie systémových súborov
+.DS_Store
+Thumbs.db
+
+# Ignorovanie logov
+logs/
+*.log
+
+# Ignorovanie vygenerovaných súborov
+build/
+dist/
+
+# Ignorovanie záložných a dočasných súborov
+*.bak
+*.tmp
+*~
+
+# Ignorovanie osobných konfiguračných súborov
+.env
